@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+css备用
+
+.大图{text-align: center;}
+
+.主图{width:1430px;}
+
+.导航栏{magin:0px auto;
+	background-color:#58c0d1;
+	vertical-align: middle;
+	position:fixed;
+	width:1420px;
+	height:50px;
+
+	text-align: center;}
+
+#logo{width:50px;}
+
+ul {
+    width:800px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    color:yellow;
+	background-color: #111111;
+}
+
+
+li:hover .dropdown {
+    display: block;
+
+h1{color:#58c0d1;}
+
+.ART1{magin:20px auto;
+	text-align: center;
+	}
+.ECONOMICS1{magin:20px auto;
+	text-align: center;
+	}
+.HISTORY1{magin:20px auto;
+	text-align: center;
+	}
+.SOCIOLOGY1{magin:20px auto;
+	text-align: center;
+	}
+.SCIENCE1{magin:20px auto;
+	text-align: center;
+	}
+.COMPUTER1{magin:20px auto;
+	text-align: center;
+	}
+
+.ART2{color:white;
+	background-color: #e9f8fb;
+	width:1300px;
+text-align: center;
+margin:5px auto;}
+.ECONOMICS2{color:white;
+	background-color: #e9f8fb;
+	width:1300px;
+text-align: center;
+margin:5px auto;}
+.HISTORY2{color:white;
+	background-color: #e9f8fb;
+	width:1300px;
+text-align: center;
+margin:5px auto;}
+.SOCIOLOGY2{color:white;
+	background-color: #e9f8fb;
+	width:1300px;
+text-align: center;
+margin:5px auto;}
+.SCIENCE2{color:white;
+	background-color: #e9f8fb;
+	width:1300px;
+text-align: center;
+margin:5px auto;}
+.COMPUTER2{color:white;
+	background-color: #e9f8fb;
+	width:1300px;
+text-align: center;
+margin:5px auto;}
+
+.a1{width:400px;}
+
+.b1{display:inline-block;
+width:400px;
+margin:50px 50px;}
+
+.b2{display:inline-block;
+width:400px;
+margin:50px 10px;}
+
+p{magin:20px auto;
+	text-align: left;
+	background-color: #58c0d1;
+	padding:5px;}

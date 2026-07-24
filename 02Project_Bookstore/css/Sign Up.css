@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+css-Sign Up
+
+
+.大图{text-align: center;}
+
+.主图{width:1430px;}
+
+.导航栏{magin:0px auto;
+	background-color:#58c0d1;
+	vertical-align: middle;
+	
+	width:1420px;
+	height:50px;
+	text-align: center;}
+
+#logo{width:50px;}
+
+ul{display:inline-block;
+	magin:10px auto;
+	vertical-align: middle;
+	position:relative;
+	left:40px;
+	top:-20px;
+	text-align: center;}
+
+li{display:inline-block;
+	margin-right: 135px;
+	padding:10px 20px;
+	text-align: center;}
+
+li:hover{background-color:whitesmoke;
+		color:black;}
+
+a{text-decoration:none;
+	color:white;}
+
+a:hover{color:black;}
+
+.dropdown{display:none;
+	position:absolute;
+background-color:#58c0d1;
+color:white;
+text-align: left;
+line-height: 25px;
+padding:10px;
+margin:10px;}
+.dropdown a{display:block;
+		color:white;
+text-decoration: none;}
+.dropdown a:hover{color:black;}
+
+li:hover .dropdown{display:block;}
+
+h1{color:#58c0d1;}
+
+.contact1{width:1420px;
+		text-align: center;
+		margin:20px auto;}
+
+.表单{width:1300px;
+	color:white;
+	background-color: #58c0d1;
+	padding:10px;
+	text-align: left;
+	line-height: 30px;
+	margin:20px auto;}
+
+.title{float:left;
+		width:600px;
+		text-align: right;}
+
+.input{width:100px;}
+
+.button{width:80px;
+		background-color:#58c0d1;
+		color:white;
+		text-align: center;
+		margin-right:100px;
+		margin-left:400px;}
+.button:hover{background-color:whitesmoke;
+		color:black;}
+
+.map{width:1300px;
+	background-color: #58c0d1;
+	margin:20px auto;
+	padding:10px;}
+
+h2{color:white;}
+
+iframe{width:800px;
+		height:600px;}
+
+.address{color:white;}
+
+.footer{margin-top: 100px;
+		padding:20px;
+		text-align: center;
+		clear:both;
+	
+	background-color: #58c0d1;
+	color:white;
+	word-spacing: 20px;
+	height:60px;}
+
+.小图{width:30px;}

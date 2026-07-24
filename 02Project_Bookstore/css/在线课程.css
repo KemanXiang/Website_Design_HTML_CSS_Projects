@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+css-在线课程
+
+.大图{text-align: center;}
+
+.主图{width:1430px;}
+
+.导航栏{magin:0px auto;
+	background-color:#58c0d1;
+	vertical-align: middle;
+	
+	width:1420px;
+	height:50px;
+
+	text-align: center;}
+
+#logo{width:50px;}
+
+ul{display:inline-block;
+	magin:10px auto;
+	vertical-align: middle;
+	position:relative;
+	left:40px;
+	top:-20px;
+	text-align: center;
+	overflow: visible;}
+li{display:inline-block;
+	margin-right: 70px;
+	padding:10px 20px;
+	text-align: center;}
+li a{display:inline-block;}
+li:hover{background-color:whitesmoke;
+		color:black;}
+a{text-decoration:none;
+	color:white;}
+a:hover{color:black;}
+
+.dropdown{display:none;
+	position:absolute;
+background-color:#58c0d1;
+color:white;
+text-align: left;
+line-height: 25px;
+padding:10px;
+margin:10px;}
+.dropdown a{display:block;
+		color:white;
+text-decoration: none;}
+.dropdown a:hover{color:black;}
+
+li:hover .dropdown{display:block;}
+
+h1{color:#58c0d1;
+	text-align: center;}
+h2{color:white;
+	text-align: center;
+	margin:10px auto;}
+
+.recommendation{margin:5px auto;
+	color:white;
+	width:1300px;
+	text-align: center;}
+.ART1{text-align: center;
+	margin:20px auto;
+	background-color: #58c0d1;
+	padding: 15px;}
+.b1{display:inline-block;
+width:250px;
+margin:10px 30px;
+	text-align: center;}
+
+.a1{width:200px;}
+
+.p1{magin:20px auto;
+	text-align: center;
+	background-color: #58c0d1;
+	padding:5px;}
+.p2{text-align: left;}
+
+.footer{margin-top: 100px;
+		padding:20px;
+		text-align: center;
+		clear:both;
+	
+	background-color: #58c0d1;
+	color:white;
+	word-spacing: 20px;
+	height:60px;}
+
+
+
