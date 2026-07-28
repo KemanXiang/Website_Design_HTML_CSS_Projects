@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+css-首页
+
+.大图{text-align: center;
+	width:1430px;
+	height: 200px;}
+
+.主图{width:1430px;
+	height: 200px;}
+
+.导航栏{magin:0px auto;
+	background-color:#58c0d1;
+	vertical-align: middle;
+	width:1420px;
+	height:50px;
+	
+	text-align: center;}
+
+#logo{width:60px;}
+
+ul{display:inline-block;
+	magin:10px auto;
+	vertical-align: middle;
+	position:relative;
+	left:40px;
+	top:-20px;
+	text-align: center;}
+
+li{display:inline-block;
+	margin-right: 120px;
+	padding:10px 20px;
+	text-align: center;}
+li a{display:inline-block;}
+li:hover{background-color:whitesmoke;
+		color:black;}
+
+a{text-decoration:none;
+	color:white;}
+
+a:hover{color:black;}
+
+.dropdown{display:none;
+	position:absolute;
+background-color:#58c0d1;
+color:white;
+text-align: left;
+line-height: 25px;
+padding:10px;
+margin:10px;}
+.dropdown a{display:block;
+		color:white;
+text-decoration: none;}
+.dropdown a:hover{color:black;}
+
+li:hover .dropdown{display:block;}
+
+.文字{magin:20px auto;
+	text-align: center;
+	color:#58c0d1;}
+
+.p{magin:20px auto;
+	text-align: center;
+	background-color: #58c0d1;
+	color:white;
+	line-height:50px;}
+	
+h1{color:#58c0d1;}	
+
+.contact1{width:1420px;
+		text-align: center;
+		margin:20px auto;}	
+		
+.表单{width:1300px;
+	color:white;
+	background-color: #58c0d1;
+	padding:10px;
+	text-align: center;
+	line-height: 30px;
+	margin:20px auto;}
+	
+.title{float:left;
+		width:600px;
+		text-align: right;}
+	
+.p2{color:white;
+	background-color: #58c0d1;
+	width:1000px;
+	text-align: left;
+	margin:20px auto;
+	padding: 10px;}
+
+.recommendation{float:left;
+	magin:5px 15px;}
+h3{text-align: center;}
+.a1{width:200px;}
+.b1{display:inline-block;
+width:200px;
+margin:10px 30px;}
+
+.ART1{magin:20px auto;
+	text-align: center;	}
+.ECONOMICS1{magin:20px auto;
+	text-align: center;
+	}
+.HISTORY1{magin:20px auto;
+	text-align: center;
+	}
+.SOCIOLOGY1{magin:20px auto;
+	text-align: center;
+	}
+.SCIENCE1{magin:20px auto;
+	text-align: center;
+	}
+.COMPUTER1{magin:20px auto;
+	text-align: center;
+	}
+
+.Bestsell{color:white;
+	background-color: #58c0d1;
+	float:right;
+	margin:20px 15px;
+	width: 300px;}
+h2{text-align: center;}
+.booklist{magin:5px auto;
+	padding: 0.1px;
+	text-align: center;}
+.ollist{magin:1px auto;
+	padding: 1px;
+	text-align: center;}
+.litext{magin:1px auto;
+	padding: 5px;
+	text-align: left;}
+
+
+.图片{width:700px;
+height: 525px;}
+
+.footer{margin-top: 100px;
+		padding:20px;
+		text-align: center;
+		clear:both;
+		
+	background-color: #58c0d1;
+	color:white;
+	word-spacing: 20px;
+	height:60px;}
+
+
