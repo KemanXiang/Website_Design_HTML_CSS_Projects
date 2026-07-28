@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design Portfolio</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background:#f8f9fb;
+            color:#222;
+        }
+
+        .container{
+            max-width:900px;
+            margin:80px auto;
+            padding:0 30px;
+        }
+
+        h1{
+            font-size:42px;
+            font-weight:300;
+            letter-spacing:1px;
+            margin-bottom:10px;
+        }
+
+        .subtitle{
+            color:#666;
+            font-size:18px;
+            margin-bottom:60px;
+        }
+
+        .project-list{
+            display:flex;
+            flex-direction:column;
+            gap:20px;
+        }
+
+        .card{
+
+            background:white;
+
+            padding:28px 32px;
+
+            border-radius:14px;
+
+            text-decoration:none;
+
+            color:#222;
+
+            box-shadow:0 6px 20px rgba(0,0,0,.05);
+
+            transition:.25s;
+
+            display:flex;
+
+            justify-content:space-between;
+
+            align-items:center;
+
+        }
+
+        .card:hover{
+
+            transform:translateY(-4px);
+
+            box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+        }
+
+        .project-title{
+
+            font-size:22px;
+
+            font-weight:500;
+
+        }
+
+        .project-desc{
+
+            margin-top:8px;
+
+            color:#777;
+
+            font-size:15px;
+
+        }
+
+        .arrow{
+
+            font-size:28px;
+
+            color:#999;
+
+        }
+
+        footer{
+
+            margin-top:70px;
+
+            text-align:center;
+
+            color:#999;
+
+            font-size:14px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Website Design Portfolio</h1>
+
+    <p class="subtitle">
+        HTML & CSS Projects
+    </p>
+
+    <div class="project-list">
+
+        <a class="card" href="01Project_CrashCourse/">
+
+            <div>
+
+                <div class="project-title">
+                    Crash Course
+                </div>
+
+                <div class="project-desc">
+                    Course homepage and clickable subpages with colorful layout.
+                </div>
+
+            </div>
+
+            <div class="arrow">
+                →
+            </div>
+
+        </a>
+
+        <a class="card" href="02Project_Bookstore/">
+
+            <div>
+
+                <div class="project-title">
+                    Bookstore Website
+                </div>
+
+                <div class="project-desc">
+                    Multi-page bookstore website with navigation and product display.
+                </div>
+
+            </div>
+
+            <div class="arrow">
+                →
+            </div>
+
+        </a>
+
+        
+
+    </div>
+
+    <footer>
+
+        © 2026 Keman Xiang
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>
